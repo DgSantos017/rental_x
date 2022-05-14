@@ -7,5 +7,4 @@ specificationsRoutes.post('/', (req, res) => {
 	return createSpecificationController.handle(req, res)
 })
 
-
 export { specificationsRoutes }
