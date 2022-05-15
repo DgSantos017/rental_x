@@ -1,0 +1,80 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+      "title": "Rentalx Documentation",
+      "description": "This is an API Rentx",
+      "version": "1.0.0",
+      "contact": {
+        "email": "diogosantosferreira.01@gmail.com"
+      }
+  },
+
+  "paths": {
+    "/categories": {
+      "post": {
+          "tags": ["Categories"],
+          "summary": "Create new Category",
+          "description": "Route for created category",
+          "requestBody": {
+              "content": {
+                  "application/json": {
+                      "schema": {
+                          "type": "object",
+                          "example": {
+                              "name": "ferrari",
+                              "description": "carro muito foda"
+                          }
+                      }
+                  }
+              }
+          },
+          "responses": {
+              "201": { "description": "Category created successfully" },
+              "400": { "description": "incorrect request" },
+              "401": { "description": "Category already exists" }
+          }
+      },
+      "get": {
+        "tags": ["Categories"],
+        "summary": "All categories",
+        "description": "Route for list categories",
+        "responses": {
+            "200": { "description": "All categories" }
+        }
+      }        
+    },
+    "/specifications": {
+      "post": {
+          "tags": ["Specifications"],
+          "summary": "Create new specification",
+          "description": "Route for created specification",
+          "requestBody": {
+              "content": {
+                  "application/json": {
+                      "schema": {
+                          "type": "object",
+                          "example": {
+                              "name": "ferrari do diogo",
+                              "description": "essa é minha"
+                          }
+                      }
+                  }
+              }
+          },
+          "responses": {
+              "201": { "description": "Specifications created successfully" },
+              "400": { "description": "incorrect request" },
+              "401": { "description": "Specifications already exists" }
+          }
+      },
+      "get": {
+        "tags": ["Specifications"],
+        "summary": "All specifications",
+        "description": "Route for list specifications",
+        "responses": {
+            "200": { "description": "All specifications" }
+        }
+      }        
+    }
+  }
+}
