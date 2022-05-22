@@ -3,4 +3,5 @@ dist
 yarn.lock
 .vscode
 .docker
+package-lock.json
 
