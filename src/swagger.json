@@ -43,6 +43,31 @@
         }
       }        
     },
+    "/categories/import": {
+        "post": {
+            "tags": ["Categories"],
+            "summary": "Upload a new category",
+            "description": "Route for created a new category with file",
+            "requestBody": {
+                "content": {
+                    "multipart/form-data": {
+                        "schema": {
+                            "type": "object",
+                            "properties": {
+                                "file": {
+                                    "type": "string",
+                                    "format": "binary"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "responses": {
+                "201": { "description":  "Created"}
+            }
+        }
+    },
     "/specifications": {
       "post": {
           "tags": ["Specifications"],
