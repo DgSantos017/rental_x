@@ -1,7 +1,8 @@
 import { compare } from 'bcrypt'
 import { sign } from 'jsonwebtoken'
 import { inject, injectable } from 'tsyringe'
-import { IUsersRepository } from '../repositpries/IUsersRepository'
+import { IUsersRepository } from '../accounts/repositpries/IUsersRepository'
+
 
 interface IRequest {
   email: string
