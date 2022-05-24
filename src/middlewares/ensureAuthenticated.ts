@@ -25,6 +25,10 @@ export async function ensureAuthenticated (req: Request, res: Response, next: Ne
 		if(!user){
 			throw new AppError('User does not exists', 404)
 		}
+
+		req.user = { 
+			id: user_id
+		}
     
 		next()
 	
