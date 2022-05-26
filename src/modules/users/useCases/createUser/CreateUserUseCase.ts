@@ -1,6 +1,6 @@
 import { hash } from 'bcrypt'
 import { inject, injectable } from 'tsyringe'
-import { AppError } from '../../../../config/Apperror'
+import { AppError } from '../../../../shared/erros/Apperror'
 import { ICreateUserDTO } from '../../dtos/ICreateUserDTO'
 import { IUsersRepository } from '../../repositories/IUsersRepository'
 
