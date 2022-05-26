@@ -1,6 +1,7 @@
 import { Request, Response } from 'express'
 import { container } from 'tsyringe'
-import { ListCategoriesUseCase } from './listCategoriesUseCase'
+import { ListCategoriesUseCase } from './ListCategoriesUseCase'
+
 
 class ListCategoriesController {
 
