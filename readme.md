@@ -158,7 +158,10 @@ ou <br />
 <img alt="GitHub" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
 <img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
 <img alt="Ubuntu" src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"/>
-<img alt="Heroku" src="https://img.shields.io/badge/jeroku-%23007ACC.svg?style=for-the-badge&logo=heroku&logoColor=white"/>
+<img alt="Heroku" src="https://img.shields.io/badge/heroku-%23007ACC.svg?style=for-the-badge&logo=heroku&logoColor=white"/>
+<img alt="Heroku" src="https://img.shields.io/badge/swagger-6DA55F?style=for-the-badge&logo=swagger&logoColor=white"/>
+
+
 
 
 
