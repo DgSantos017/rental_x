@@ -75,7 +75,7 @@ ou <br />
 
 ## 5 - Mapeamento de requisitos
 
-### 4.1 - Cadastro de carro
+### 5.1 - Cadastro de carro
 
 **Requisitos Funcionais**
 - deve ser possível cadastrar um novo carro
@@ -86,12 +86,12 @@ ou <br />
 - O carro deve ser cadastrado, por padrão, com disponibilidade.
 - O usuário responsável pelo cadastro deve ser um user admin
 
-### 4.2 - Listagem de carros
+### 5.2 - Listagem de carros
 
 **Requisitos Funcionais**
 - deve ser possível listar todos os carros disponíveis
 
-#### 4.3 - Cadastro de especificação no carro
+#### 5.3 - Cadastro de especificação no carro
 
 **Requisitos Funcionais**
 - deve ser possível cadastrar uma especificação para um carro
@@ -107,39 +107,39 @@ ou <br />
 
 ## 6 - Comandos docker
 
-### 5.1 - Listar todos os containers criados
+### 6.1 - Listar todos os containers criados
 ` docker ps -a `
 
-### 5.2 - Listar todos os containers rodando em execução
+### 6.2 - Listar todos os containers rodando em execução
 ` docker ps `
 
-### 5.3 - Apagar todos os containers
+### 6.3 - Apagar todos os containers
 ` docker compose down `
 
-###  5.4 - Apagar um container especifico
+### 6.4 - Apagar um container especifico
 ` docker rm id_container `
 
-### 5.5 - Levantar e iniciar um container do zero
+### 6.5 - Levantar e iniciar um container do zero
 ` docker compose up `
 
-### 5.6 - Levantar e iniciar um container do zero rodando em plano de fundo
+### 6.6 - Levantar e iniciar um container do zero rodando em plano de fundo
 ` docker compose up -d `
 
-### 5.7 - ver os logs do container rodando em plano de fundo
+### 6.7 - ver os logs do container rodando em plano de fundo
 ` docker logs name_container -f `
 
-### 5.8 - parar o container que está rodando no diretório presente
+### 6.8 - parar o container que está rodando no diretório presente
 `docker compose stop`
 
-### 5.9 - iniciar o container que está rodando no diretório presente
+### 6.9 - iniciar o container que está rodando no diretório presente
 `docker compose start`
 
 ## 7 - Comandos typeorm - migrations
 
-### 6.1 - Criar uma migration
+### 7.1 - Criar uma migration
 ` yarn typeorm migration:create -n NameMigration `
 
-### 6.2 - Rodar as migrations que foram criadas
+### 7.2 - Rodar as migrations que foram criadas
 ` yarn typeorm migration:run `
 
 
@@ -160,10 +160,6 @@ ou <br />
 <img alt="Ubuntu" src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"/>
 <img alt="Heroku" src="https://img.shields.io/badge/heroku-%23007ACC.svg?style=for-the-badge&logo=heroku&logoColor=white"/>
 <img alt="Heroku" src="https://img.shields.io/badge/swagger-6DA55F?style=for-the-badge&logo=swagger&logoColor=white"/>
-
-
-
-
 
 ## 9 - Contatos do desenvolvedor
 
