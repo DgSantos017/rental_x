@@ -48,6 +48,16 @@ ou <br />
 #### 3.6.3 - se a versão é < 1.29, rode o comando abaixo
 `docker compose up -d`
 
+#### curiosidade: - a flag acima `-d` serve para rodar o docker em plano de fundo
+
+### 3.7 - para confirmação, rode o comando abaixo
+`docker logs rentx -f` 
+
+#### 3.7.1 - se estiver tudo ok, a mensagem abaixo vai aparecer
+`running in port 3333`
+
+## para facilitar nossas vidas, deixei os comandos Docker que precisam ser usados no tópico 5 abaixo desta documentação
+
 ## 4 - mapeamento de requisitos
 
 ## 5 - comandos docker
