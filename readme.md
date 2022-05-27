@@ -109,7 +109,7 @@ ou <br />
 ### 5.6 - Levantar e iniciar um container do zero rodando em plano de fundo
 ` docker compose up -d `
 
-## 5.7 - ver os logs do container rodando em plano de fundo
+### 5.7 - ver os logs do container rodando em plano de fundo
 ` docker logs name_container -f `
 
 ### 5.8 - parar o container que está rodando no diretório presente
