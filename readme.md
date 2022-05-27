@@ -22,9 +22,8 @@
 [3.1.2 - https://docs.docker.com/compose/install/](https://docs.docker.com/compose/install/)
 
 ### 3.3 - faça o fork deste repositório em sua conta do github <br />
-#### (uma vez dentro deste repositório, o botão do Fork fica no canto superior direito da tela)
-
-#### agora em seu computador, abra o terminal e rode os comandos abaixo de acordo com cada tópico
+- uma vez dentro deste repositório, o botão do Fork fica no canto superior direito da tela)
+- agora em seu computador, abra o terminal e rode os comandos abaixo de acordo com cada tópico
 
 ### 3.4 - com o repositório presente em sua conta do github, faça o clone para vincular a sua máquina.
 
@@ -32,7 +31,7 @@
 ou <br />
 `git@github.com:DgSantos017/rental_x.git`
 
-#### obs: quando voce fez o Fork, se voce alterou o nome do repositório, substitua também o nome acima `rental_x` pelo nome escolheu na hora do Fork.
+- obs: quando voce fez o Fork, se voce alterou o nome do repositório, substitua também o nome acima `rental_x` pelo nome escolheu na hora do Fork.
 
 ### 3.5 - Entre no diretório do projeto
 `cd rental_x`
