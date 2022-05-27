@@ -145,27 +145,18 @@ ou <br />
 
 ## 8 - Tecnologias ultilizadas
 
-- Javascript <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/javascript.svg'>
-
-- TypeScript <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/typescript.svg'>
-
-- NodeJs <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/nodejs.svg'> 
-
-- Express <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/express.svg'>
-
-- PostgreSQL <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/postgresql.svg'>
-
-- Linux <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/linux.svg'>
-
-- GIT <img alt="Git" src="https://img.shields.io/badge/-white?style=for-the-badge&logo=git&logoColor=red"/>
-
-- INSOMINIA <img alt="Insominia" src="https://img.shields.io/badge/-white?style=for-the-badge&logo=insomnia&logoColor=purple"/>
-
-- Docker <img alt="Docker" src="https://img.shields.io/badge/-white?style=for-the-badge&logo=docker&logoColor=blue"/>
-
-- VS Code <img alt="VS Code" src="https://img.shields.io/badge/-white?style=for-the-badge&logo=visualstudiocode&logoColor=blue"/>
-
-- Heroku <img alt="Docker" src="https://img.shields.io/badge/-white?style=for-the-badge&logo=heroku&logoColor=red"/>
+<img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
+<img alt="Node" src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"/>
+<img alt="Express" src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB"/>
+<img alt="TypeScript" src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"/>
+<img alt="PostgreSQL"width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/postgresql.svg'>
+<img alt="Insominia" src="https://img.shields.io/badge/-white?style=for-the-badge&logo=insomnia&logoColor=purple"/>
+<img alt="Docker" src="https://img.shields.io/badge/-white?style=for-the-badge&logo=heroku&logoColor=red"/>
+<img alt="VSCODE" src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white"/>
+<img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+<img alt="GitHub" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
+<img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
+<img alt="Ubuntu" src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"/>
 
 ## 9 - Contatos do desenvolvedor
 
@@ -176,6 +167,7 @@ ou <br />
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href="https://instagram.com/diogo__.js" target="_blank">
     <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+    <a target="_blank" href="https://wa.me/5598981163277"><img target="_blank" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a> 
 </p>  
 
 ---
