@@ -65,9 +65,36 @@ ou <br />
 **Requisitos Funcionais**
 - deve ser possível cadastrar um novo carro
 
-**Requisitos NÃO Funcionais**
+**Regras de negócio**
+- Não deve ser possível cadastrar um carro com uma placa já existente
+- Não deve ser possível alterar a placa de um carro já cadastrado
+- O carro deve ser cadastrado, por padrão, com disponibilidade.
+- O usuário responsável pelo cadastro deve ser um user admin
 
-**Regras de Negocio**
+# 4.2 - Listagem de carros
+
+**Requisitos Funcionais**
+- deve ser possível listar todos os carros disponíveis
+
+# 4.3 - Cadastro de especificação no carro
+
+**Requisitos Funcionais**
+- deve ser possível cadastrar uma especificação para um carro
+- deve ser possível listar todas as especificações
+- deve ser possível listar todos os carros
+
+**Regras de negócio**
+- Não deve ser possível cadastrar uma especificação para um carro não cadastrado
+- Não deve ser possível cadastrar uma especificação já existente para o mesmo carro
+- O usuário responsável pelo cadastro deve ser um user admin
+
+
+
+
+
+
+
+
 
 ## 5 - comandos docker
 
