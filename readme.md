@@ -60,6 +60,19 @@ ou <br />
 
 ## 4 - mapeamento de requisitos
 
+# Cadastro de carro
+
+**Requisitos Funcionais**
+1- deve ser possível cadastrar um novo carro
+
+**Requisitos NÃO Funcionais**
+
+**Regras de Negocio**
+
+## 7 - tecnologias ultilizadas
+
+## 8 - contatos do desenvolvedor
+
 ## 5 - comandos docker
 
 ### 5.1 - Listar todos os containers criados
@@ -94,19 +107,5 @@ ou <br />
 ### 6.1 - Criar uma migration
 ` yarn typeorm migration:create -n NameMigration `
 
-### 6.2 - Rodar uma migration 
+### 6.2 - Rodar as migrations que foram criadas
 ` yarn typeorm migration:run `
-
-
-# Cadastro de carro
-
-**Requisitos Funcionais**
-1- deve ser possível cadastrar um novo carro
-
-**Requisitos NÃO Funcionais**
-
-**Regras de Negocio**
-
-## 7 - tecnologias ultilizadas
-
-## 8 - contatos do desenvolvedor
