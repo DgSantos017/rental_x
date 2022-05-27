@@ -34,7 +34,7 @@ ou <br />
 
 #### obs: quando voce fez o Fork, se voce alterou o nome do repositório, substitua também o nome acima `rental_x` pelo nome escolheu na hora do Fork.
 
-### 3.5 - Entre no repositório
+### 3.5 - Entre no diretório do projeto
 `cd rental_x`
 
 ### 3.6 - iniciar e levantar o servidor backend, junto com os containers Docker
@@ -56,31 +56,38 @@ ou <br />
 #### 3.7.1 - se estiver tudo ok, a mensagem abaixo vai aparecer
 `running in port 3333`
 
-## para facilitar nossas vidas, deixei os comandos Docker que precisam ser usados no tópico 5 abaixo desta documentação
+### para facilitar nossas vidas, deixei os comandos Docker que precisam ser usados no tópico 5 abaixo desta documentação
 
 ## 4 - mapeamento de requisitos
 
 ## 5 - comandos docker
-## Listar todos os containers
+
+### 5.1 - Listar todos os containers criados
 ` docker ps -a `
 
-## Listar todos os containers em execução
+### 5.2 - Listar todos os containers rodando em execução
 ` docker ps `
 
-## Apagar todos os containers
+### 5.3 - Apagar todos os containers
 ` docker compose down `
 
-## Apagar um container especifico
+###  5.4 - Apagar um container especifico
 ` docker rm id_container `
 
-## Levantar e iniciar um container do zero
+### 5.5 - Levantar e iniciar um container do zero
 ` docker compose up `
 
-## Levantar e iniciar um container do zero rodando em plano de fundo
+### 5.6 - Levantar e iniciar um container do zero rodando em plano de fundo
 ` docker compose up -d `
 
-## ver os logs do container rodando em plano de fundo
+## 5.7 - ver os logs do container rodando em plano de fundo
 ` docker logs name_container -f `
+
+### 5.8 - parar o container que está rodando no diretório presente
+`docker compose stop`
+
+### 5.9 - iniciar o container que está rodando no diretório presente
+`docker compose start`
 
 ### 6 - comandos typeorm - migrations
 
