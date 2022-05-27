@@ -149,8 +149,8 @@ ou <br />
 <img alt="Node" src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"/>
 <img alt="Express" src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB"/>
 <img alt="TypeScript" src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"/>
-<img alt="PostgreSQL" src ='https://img.shields.io/badge/postgres-%23007ACC.svg?style=for-the-badge&logo=postgres&logoColor=white'>
-<img alt="TypeORM" src ='https://img.shields.io/badge/typeorm-%23007ACC.svg?style=for-the-badge&logo=postgtypeormres&logoColor=green'>
+<img alt="PostgreSQL" src ='https://img.shields.io/badge/postgres-%23007ACC.svg?style=for-the-badge&logo=postgresql&logoColor=white'>
+<img alt="TypeORM" src ='https://img.shields.io/badge/typeorm-%23007ACC.svg?style=for-the-badge&logo=postgtypeormres&logoColor=red'>
 <img alt="Insominia" src="https://img.shields.io/badge/insominia-6DA55F?style=for-the-badge&logo=insomnia&logoColor=purple%27%3E"/>
 <img alt="Docker" src="https://img.shields.io/badge/docker-%23007ACC.svg?style=for-the-badge&logo=docker&logoColor=white"/>
 <img alt="VSCODE" src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white"/>
