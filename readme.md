@@ -16,15 +16,15 @@
 [3.1.1 - Docker](https://docs.docker.com/engine/install/) <br />
 [3.1.2 - Docker Compose](https://docs.docker.com/compose/install/)
 
-### 3.2 - caso não tenha instalado em sua máquina os 2 itens acima, segue o link da documentação abaixo para instalar cada um(docker e docker compose).
+### 3.2 - caso não tenha instalado em sua máquina os 2 itens acima, segue o link da documentação abaixo para instalar cada um (docker e docker compose).
 
 [3.1.1 - https://docs.docker.com/engine/install/](https://docs.docker.com/engine/install/) <br />
 [3.1.2 - https://docs.docker.com/compose/install/](https://docs.docker.com/compose/install/)
 
 ### 3.3 - faça o fork deste repositório em sua conta do github <br />
-### (uma vez dentro deste repositório, o botão do Fork fica no canto superior direito da tela)
+#### (uma vez dentro deste repositório, o botão do Fork fica no canto superior direito da tela)
 
-## agora em seu computador, abra o terminal e rode os comandos abaixo de acordo com cada tópico
+#### agora em seu computador, abra o terminal e rode os comandos abaixo de acordo com cada tópico
 
 ### 3.4 - com o repositório presente em sua conta do github, faça o clone para vincular a sua máquina.
 
@@ -33,6 +33,20 @@ ou <br />
 `git@github.com:DgSantos017/rental_x.git`
 
 #### obs: quando voce fez o Fork, se voce alterou o nome do repositório, substitua também o nome acima `rental_x` pelo nome escolheu na hora do Fork.
+
+### 3.5 - Entre no repositório
+`cd rental_x`
+
+### 3.6 - iniciar e levantar o servidor backend, junto com os containers Docker
+#### 3.6.1 - o comando do passo acima, depende da versão do docker compose, voce pode verificar isso com o comando abaixo
+`docker compose version`
+
+#### 3.6.2 - se a versão é > 2.0.1, rode o comando abaixo
+`docker-compose up -d`
+
+
+#### 3.6.3 - se a versão é < 1.29, rode o comando abaixo
+`docker compose up -d`
 
 ## 4 - mapeamento de requisitos
 
