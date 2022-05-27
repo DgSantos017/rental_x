@@ -1,15 +1,15 @@
 # RENTX 
 
 **Mini-sumário**
-- 1 -> Link da documentação da API rest full - SWAGGER
-- 2 -> Sobre a Aplicação
-- 3 -> Como rodar o backend localmente - passo a passo
-- 4 -> Como rodar os testes
-- 5 -> Mapeamento de requisitos
-- 6 -> Comandos docker
-- 7 -> Comandos typeorm - migrations
-- 8 -> Tecnologias ultilizadas
-- 9 -> Contatos do desenvolvedor
+- 1 - Link da documentação da API rest full - SWAGGER
+- 2 - Sobre a Aplicação
+- 3 - Como rodar o backend localmente - passo a passo
+- 4 - Como rodar os testes
+- 5 - Mapeamento de requisitos
+- 6 - Comandos docker
+- 7 - Comandos typeorm - migrations
+- 8 - Tecnologias ultilizadas
+- 9 - Contatos do desenvolvedor
 
 ## 1 - Link da documentação da API rest full - SWAGGER
 [http://localhost:3333/api-docs/](http://localhost:3333/api-docs/)
