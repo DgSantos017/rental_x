@@ -150,7 +150,7 @@ ou <br />
 <img alt="Express" src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB"/>
 <img alt="TypeScript" src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"/>
 <img alt="PostgreSQL" src ='https://img.shields.io/badge/postgres-6DA55F?style=for-the-badge&logo=postgresql&logoColor=purple'>
-<img alt="Insominia" src="https://img.shields.io/badge/-white?style=for-the-badge&logo=insomnia&logoColor=purple"/>
+<img alt="Insominia" src="https://img.shields.io/badge/insominia-6DA55F?style=for-the-badge&logo=insomnia&logoColor=purple%27%3E"/>
 <img alt="Docker" src="https://img.shields.io/badge/-white?style=for-the-badge&logo=heroku&logoColor=red"/>
 <img alt="VSCODE" src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white"/>
 <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
