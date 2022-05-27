@@ -13,8 +13,8 @@
 
 #### O que você precisa ter instalado em sua máquina ? só 2 coisinhas, são elas:
 
-[Docker](https://docs.docker.com/engine/install/) <br />
-[Docker Compose](https://docs.docker.com/compose/install/)
+[Docker](https://www.docker.com/) <br />
+[Docker Compose](https://docs.docker.com/compose/)
 
 ### 3.2 - caso não tenha instalado em sua máquina os 2 itens acima, segue o link da documentação abaixo para instalar cada um (docker e docker compose).
 
