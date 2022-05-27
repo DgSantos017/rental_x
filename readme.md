@@ -168,3 +168,15 @@ ou <br />
 - Heroku <img alt="Docker" src="https://img.shields.io/badge/-white?style=for-the-badge&logo=heroku&logoColor=red"/>
 
 ## 9 - Contatos do desenvolvedor
+
+<p align="left">
+  <a href="https://www.linkedin.com/in/diogo-santos01/" target="_blank">
+    <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+  <a href = "mailto:diogosantosferreira.01@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href="https://instagram.com/diogo__.js" target="_blank">
+    <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+</p>  
+
+---
+⌨️ made with ❤️ by [Diogo Santos](https://gist.github.com/DgSantos017) 😊
