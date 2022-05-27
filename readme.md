@@ -11,6 +11,7 @@
 - 8 - Tecnologias ultilizadas
 - 9 - Contatos do desenvolvedor
 
+
 ## 1 - Link da documentação da API rest full - SWAGGER
 [http://localhost:3333/api-docs/](http://localhost:3333/api-docs/)
 
