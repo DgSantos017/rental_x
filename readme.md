@@ -13,16 +13,16 @@
 
 #### O que você precisa ter instalado em sua máquina ? só 2 coisinhas, são elas:
 
-[3.1.1 - Docker](https://docs.docker.com/engine/install/) <br />
-[3.1.2 - Docker Compose](https://docs.docker.com/compose/install/)
+[Docker](https://docs.docker.com/engine/install/) <br />
+[Docker Compose](https://docs.docker.com/compose/install/)
 
 ### 3.2 - caso não tenha instalado em sua máquina os 2 itens acima, segue o link da documentação abaixo para instalar cada um (docker e docker compose).
 
-[3.1.1 - https://docs.docker.com/engine/install/](https://docs.docker.com/engine/install/) <br />
-[3.1.2 - https://docs.docker.com/compose/install/](https://docs.docker.com/compose/install/)
+[https://docs.docker.com/engine/install/](https://docs.docker.com/engine/install/) <br />
+[https://docs.docker.com/compose/install/](https://docs.docker.com/compose/install/)
 
 ### 3.3 - faça o fork deste repositório em sua conta do github <br />
-- uma vez dentro deste repositório, o botão do Fork fica no canto superior direito da tela)
+- uma vez dentro deste repositório, o botão do Fork fica no canto superior direito da tela
 - agora em seu computador, abra o terminal e rode os comandos abaixo de acordo com cada tópico
 
 ### 3.4 - com o repositório presente em sua conta do github, faça o clone para vincular a sua máquina.
@@ -59,7 +59,7 @@ ou <br />
 
 ## 4 - mapeamento de requisitos
 
-# 4.1 - Cadastro de carro
+### 4.1 - Cadastro de carro
 
 **Requisitos Funcionais**
 - deve ser possível cadastrar um novo carro
@@ -70,12 +70,12 @@ ou <br />
 - O carro deve ser cadastrado, por padrão, com disponibilidade.
 - O usuário responsável pelo cadastro deve ser um user admin
 
-# 4.2 - Listagem de carros
+### 4.2 - Listagem de carros
 
 **Requisitos Funcionais**
 - deve ser possível listar todos os carros disponíveis
 
-# 4.3 - Cadastro de especificação no carro
+#### 4.3 - Cadastro de especificação no carro
 
 **Requisitos Funcionais**
 - deve ser possível cadastrar uma especificação para um carro
@@ -89,13 +89,7 @@ ou <br />
 
 
 
-
-
-
-
-
-
-## 5 - comandos docker
+## 5 - Comandos docker
 
 ### 5.1 - Listar todos os containers criados
 ` docker ps -a `
@@ -124,7 +118,7 @@ ou <br />
 ### 5.9 - iniciar o container que está rodando no diretório presente
 `docker compose start`
 
-## 6 - comandos typeorm - migrations
+## 6 - Comandos typeorm - migrations
 
 ### 6.1 - Criar uma migration
 ` yarn typeorm migration:create -n NameMigration `
