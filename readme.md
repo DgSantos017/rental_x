@@ -145,4 +145,26 @@ ou <br />
 
 ## 8 - Tecnologias ultilizadas
 
+- Javascript <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/javascript.svg'>
+
+- TypeScript <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/typescript.svg'>
+
+- NodeJs <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/nodejs.svg'> 
+
+- Express <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/express.svg'>
+
+- PostgreSQL <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/postgresql.svg'>
+
+- Linux <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/linux.svg'>
+
+- GIT <img alt="Git" src="https://img.shields.io/badge/-white?style=for-the-badge&logo=git&logoColor=red"/>
+
+- INSOMINIA <img alt="Insominia" src="https://img.shields.io/badge/-white?style=for-the-badge&logo=insomnia&logoColor=purple"/>
+
+- Docker <img alt="Docker" src="https://img.shields.io/badge/-white?style=for-the-badge&logo=docker&logoColor=blue"/>
+
+- VS Code <img alt="VS Code" src="https://img.shields.io/badge/-white?style=for-the-badge&logo=visualstudiocode&logoColor=blue"/>
+
+- Heroku <img alt="Docker" src="https://img.shields.io/badge/-white?style=for-the-badge&logo=heroku&logoColor=red"/>
+
 ## 9 - Contatos do desenvolvedor
