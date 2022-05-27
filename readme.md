@@ -27,9 +27,9 @@
 
 ### 3.4 - com o repositório presente em sua conta do github, faça o clone para vincular a sua máquina.
 
-`https://github.com/DgSantos017/rental_x.git` <br />
+`git clone https://github.com/DgSantos017/rental_x.git` <br />
 ou <br />
-`git@github.com:DgSantos017/rental_x.git`
+`git clone git@github.com:DgSantos017/rental_x.git`
 
 - obs: quando voce fez o Fork, se voce alterou o nome do repositório, substitua também o nome acima `rental_x` pelo nome escolheu na hora do Fork.
 
