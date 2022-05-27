@@ -60,18 +60,14 @@ ou <br />
 
 ## 4 - mapeamento de requisitos
 
-# Cadastro de carro
+# 4.1 - Cadastro de carro
 
 **Requisitos Funcionais**
-1- deve ser possível cadastrar um novo carro
+- deve ser possível cadastrar um novo carro
 
 **Requisitos NÃO Funcionais**
 
 **Regras de Negocio**
-
-## 7 - tecnologias ultilizadas
-
-## 8 - contatos do desenvolvedor
 
 ## 5 - comandos docker
 
@@ -109,3 +105,8 @@ ou <br />
 
 ### 6.2 - Rodar as migrations que foram criadas
 ` yarn typeorm migration:run `
+
+
+## 7 - tecnologias ultilizadas
+
+## 8 - contatos do desenvolvedor
