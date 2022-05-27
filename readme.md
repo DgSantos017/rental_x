@@ -56,7 +56,7 @@ ou <br />
 #### 3.7.1 - se estiver tudo ok, a mensagem abaixo vai aparecer
 `running in port 3333`
 
-### para facilitar nossas vidas, deixei os comandos Docker que precisam ser usados no tópico 5 abaixo desta documentação
+### para facilitar nossas vidas, deixei os comandos Docker e TypeORM(Migrations) que precisam ser usados no tópico 5 e 6 abaixo desta documentação
 
 ## 4 - mapeamento de requisitos
 
@@ -89,12 +89,12 @@ ou <br />
 ### 5.9 - iniciar o container que está rodando no diretório presente
 `docker compose start`
 
-### 6 - comandos typeorm - migrations
+## 6 - comandos typeorm - migrations
 
-## Criar uma migration
+### 6.1 - Criar uma migration
 ` yarn typeorm migration:create -n NameMigration `
 
-## Rodar uma migration 
+### 6.2 - Rodar uma migration 
 ` yarn typeorm migration:run `
 
 
