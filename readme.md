@@ -1,13 +1,4 @@
-# Súmario - RENTX
-## 1 - Link da documentação da API rest full - SWAGGER
-## 2 - Sobre a Aplicação
-## 3 - Como instalar localmente - passo a passo
-## 4 - mapeamento de requisitos
-## 5 - comandos docker
-## 6 - comandos typeorm - migrations
-## 7 - tecnologias ultilizadas
-## 8 - contatos do desenvolvedor
-
+# RENTX 
 
 ## 1 - Link da documentação da API rest full - SWAGGER
 [http://localhost:3333/api-docs/](http://localhost:3333/api-docs/)
@@ -22,8 +13,8 @@
 
 #### O que você precisa ter instalado em sua máquina ? 2 coisas:
 
-#### `[3.1.1 - Docker](https://docs.docker.com/engine/install/)`
-#### `[3.1.2 - Docker Compose](https://docs.docker.com/compose/install/)`
+#### [3.1.1 - Docker](https://docs.docker.com/engine/install/)
+#### [3.1.2 - Docker Compose](https://docs.docker.com/compose/install/)
 
 ### 3.2 - caso não tenha instalado em sua máquina os 2 itens acima, siga a documentação abaixo para instalar cada um.
 
