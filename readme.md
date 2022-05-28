@@ -11,33 +11,36 @@
 - 8 - Tecnologias ultilizadas
 - 9 - Contatos do desenvolvedor
 
-
 ## 1 - Link da documentação/endpints da API rest full - SWAGGER
 [http://localhost:3333/api-docs/](http://localhost:3333/api-docs/)
 
 
 ## 2 - Sobre a Aplicação
 
+Essa é uma API backend para aluguéis de carros, o adminsitrador cadastra os carros, enquanto o
+os clientes podem listar os carros
+disponíveis para aluguél e alugar o de sua preferência.
 
 ## 3 - Como rodar o backend localmente - passo a passo
 
-### 3.1 - pré-requisitos em sua máquina.
+### 3.1 - pré-requisitos em sua máquina
 
-#### O que você precisa ter instalado em sua máquina ? só 2 coisinhas, são elas:
+#### O que você precisa ter instalado ? só 2 coisinhas, são elas:
 
-[Docker](https://www.docker.com/) <br />
+[Docker](https://www.docker.com/) <br /><br />
 [Docker Compose](https://docs.docker.com/compose/)
 
-### 3.2 - caso não tenha instalado em sua máquina os 2 itens acima, segue o link da documentação abaixo para instalar cada um (docker e docker compose).
+### 3.2 - caso não tenha instalado em sua máquina os 2 itens acima
+#### segue o link da documentação abaixo para instalar cada um (docker e docker compose)
 
-[https://docs.docker.com/engine/install/](https://docs.docker.com/engine/install/) <br />
+[https://docs.docker.com/engine/install/](https://docs.docker.com/engine/install/) <br /><br />
 [https://docs.docker.com/compose/install/](https://docs.docker.com/compose/install/)
 
 ### 3.3 - faça o fork deste repositório em sua conta do github <br />
 - uma vez dentro deste repositório, o botão do Fork fica no canto superior direito da tela
 - agora em seu computador, abra o terminal e rode os comandos abaixo de acordo com cada tópico
 
-### 3.4 - com o repositório presente em sua conta do github, faça o clone para vincular a sua máquina.
+### 3.4 - Faça o clone para vincular o repositório do seu github a sua máquina
 
 `git clone https://github.com/DgSantos017/rental_x.git` <br />
 ou <br />
@@ -54,7 +57,6 @@ ou <br />
 
 #### 3.6.2 - se a versão é > 2.0.1, rode o comando abaixo
 `docker-compose up -d`
-
 
 #### 3.6.3 - se a versão é < 1.29, rode o comando abaixo
 `docker compose up -d`
@@ -79,19 +81,21 @@ ou <br />
 
 **Requisitos Funcionais**
 - deve ser possível cadastrar um novo carro
+- deve ser possível listar todas as categorias
 
 **Regras de negócio**
 - Não deve ser possível cadastrar um carro com uma placa já existente
 - Não deve ser possível alterar a placa de um carro já cadastrado
-- O carro deve ser cadastrado, por padrão, com disponibilidade.
+- O carro deve ser cadastrado, por padrão, com disponibilidade
 - O usuário responsável pelo cadastro deve ser um user admin
 
 ### 5.2 - Listagem de carros
 
 **Requisitos Funcionais**
 - deve ser possível listar todos os carros disponíveis
+- deve ser possível listar todos os carros disponíveis pelo nome da categoria, marca e carro
 
-#### 5.3 - Cadastro de especificação no carro
+### 5.3 - Cadastro de especificação no carro
 
 **Requisitos Funcionais**
 - deve ser possível cadastrar uma especificação para um carro
@@ -103,6 +107,27 @@ ou <br />
 - Não deve ser possível cadastrar uma especificação já existente para o mesmo carro
 - O usuário responsável pelo cadastro deve ser um user admin
 
+### 5.4 - Cadastro de imagens do carro
+
+**Requisitos Funcionais**
+- deve ser possível cadastrar a imagem do carro
+- deve ser possível cadastrar mais de uma imagem por carro
+- deve ser possível listar todos os carros
+
+**Requisitos NÃO Funcionail**
+- Ultilizar a biblioteca Multer para upload dos arquivos
+
+**Regras de negócio**
+- O usuário responsável pelo cadastro deve ser um user admin
+
+### 5.5 - Aluguel de carro
+
+**Requisitos Funcionais**
+- deve ser possível cadastrar um aluguel
+
+**Regras de negócio**
+- O aluguel deve ter duração minima de 24 horas
+- Não deve ser possível cadastrar um novo aluguel caso já exista um aberto para o mesmo usúario ou carro
 
 
 ## 6 - Comandos docker
