@@ -1,7 +1,7 @@
 # RENTX 
 
 **Mini-sumário**
-- 1 - Link da documentação/endpints da API rest full - SWAGGER
+- 1 - Link da documentação/endpoints da API rest full - SWAGGER
 - 2 - Sobre a Aplicação
 - 3 - Como rodar o backend localmente - passo a passo
 - 4 - Como rodar os testes
@@ -11,7 +11,7 @@
 - 8 - Tecnologias ultilizadas
 - 9 - Contatos do desenvolvedor
 
-## 1 - Link da documentação/endpints da API rest full - SWAGGER
+## 1 - Link da documentação/endpoints da API rest full - SWAGGER
 [http://localhost:3333/api-docs/](http://localhost:3333/api-docs/)
 
 
@@ -69,7 +69,7 @@ ou <br />
 #### 3.7.1 - se estiver tudo ok, a mensagem abaixo vai aparecer
 `running in port 3333`
 
-- para facilitar nossas vidas, deixei os comandos Docker e TypeORM(Migrations) que precisam ser usados no tópico 5 e 6 abaixo desta documentação
+- para facilitar nossas vidas, deixei os comandos Docker e TypeORM(Migrations) que precisam ser usados no tópico 6 e 7 abaixo desta documentação
 
 ## 4 - Como rodar os testes
 ### Rode o comando abaixo
