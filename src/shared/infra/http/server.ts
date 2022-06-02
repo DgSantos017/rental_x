@@ -5,10 +5,10 @@ import swaggerUi from 'swagger-ui-express'
 import swaggerFile from '../../../swagger.json'
 import '../../container'
 import { AppError } from '../../erros/Apperror'
-import '../typeorm'
+import createConnection from '../typeorm'
 import { router } from './routes'
 
-
+createConnection()
 const app = express()
 
 app.use(express.json())
