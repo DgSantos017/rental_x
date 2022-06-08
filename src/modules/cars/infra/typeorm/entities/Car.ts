@@ -2,7 +2,6 @@ import { Column, CreateDateColumn, Entity, JoinColumn, ManyToOne, PrimaryColumn 
 import { v4 as uuid } from 'uuid'
 import { Category } from './Category'
 
-
 @Entity('cars')
 class Car {
 

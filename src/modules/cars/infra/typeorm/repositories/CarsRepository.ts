@@ -3,7 +3,6 @@ import { ICreateCarDTO } from '../../../dtos/ICreateCarDTO'
 import { ICarsRepository } from '../../../repositories/ICarsRepository'
 import { Car } from '../entities/Car'
 
-
 class CarsRepository implements ICarsRepository {
 
 	private repository: Repository<Car>
@@ -47,7 +46,7 @@ class CarsRepository implements ICarsRepository {
 			.where('available = :available', { available: true })
 
 		if(brand){
-			carsQuery.andWhere('c.brand = :brand', { brand })
+			carsQuery.andWhere('brand = :brand', { brand })
 		}
 
 		if(name){
@@ -55,7 +54,7 @@ class CarsRepository implements ICarsRepository {
 		}
 
 		if(category_id){
-			carsQuery.andWhere('c.category_id = :category_id', { category_id })
+			carsQuery.andWhere('category_id = :category_id', { category_id })
 		}
 
 		const cars = await carsQuery.getMany()
