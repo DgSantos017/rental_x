@@ -8,7 +8,7 @@ class ListAvailableCarsController {
 		const { brand, name, category_id } = req.body
 		const listAvailableCarsUseCase = container.resolve(ListAvailableCarsUseCase)
 
-		const cars = listAvailableCarsUseCase.execute({
+		const cars = await listAvailableCarsUseCase.execute({
 			brand: brand as string, 
 			name: name as string, 
 			category_id: category_id as string

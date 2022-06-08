@@ -2,6 +2,7 @@ import { inject, injectable } from 'tsyringe'
 import { Car } from '../../infra/typeorm/entities/Car'
 import { ICarsRepository } from '../../repositories/ICarsRepository'
 
+
 interface IRequest {
   category_id?: string
   brand?: string
@@ -25,6 +26,5 @@ class ListAvailableCarsUseCase {
 		return cars
 	}
 }
-
 export { ListAvailableCarsUseCase }
 

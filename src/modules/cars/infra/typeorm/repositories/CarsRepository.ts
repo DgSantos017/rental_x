@@ -3,6 +3,7 @@ import { ICreateCarDTO } from '../../../dtos/ICreateCarDTO'
 import { ICarsRepository } from '../../../repositories/ICarsRepository'
 import { Car } from '../entities/Car'
 
+
 class CarsRepository implements ICarsRepository {
 
 	private repository: Repository<Car>
@@ -50,7 +51,7 @@ class CarsRepository implements ICarsRepository {
 		}
 
 		if(name){
-			carsQuery.andWhere('c.name = :name', { name })
+			carsQuery.andWhere('name = :name', { name })
 		}
 
 		if(category_id){
