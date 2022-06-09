@@ -1,15 +1,18 @@
 import { AppError } from '../../../../shared/erros/Apperror'
 import { CarsRepositoryInMemory } from '../../repositories/implementationsTests/CarsRepositoryInMemory'
+import { SpecificationsRepositoryInMemory } from '../../repositories/implementationsTests/SpecificationsRepositoryInMemory'
 import { CreateCarSpecificationUseCase } from './CreateCarSpecificationUseCase'
 
 let createCarSpecificationUseCase: CreateCarSpecificationUseCase
 let carsRepositoryInMemory: CarsRepositoryInMemory
+let specificationsRepositoryInMemory: SpecificationsRepositoryInMemory
 
 describe('create Car specification', () => {
 
 	beforeEach(() => {
 		carsRepositoryInMemory = new CarsRepositoryInMemory()
-		createCarSpecificationUseCase = new CreateCarSpecificationUseCase(carsRepositoryInMemory)
+		specificationsRepositoryInMemory = new SpecificationsRepositoryInMemory()
+		createCarSpecificationUseCase = new CreateCarSpecificationUseCase(carsRepositoryInMemory, specificationsRepositoryInMemory)
 	})
 
 	it('should not be able to add a new specification to a now-existent the car', async () => {
