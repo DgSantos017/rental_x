@@ -99,8 +99,6 @@ ou <br />
 
 **Requisitos Funcionais**
 - deve ser possível cadastrar uma especificação para um carro
-- deve ser possível listar todas as especificações
-- deve ser possível listar todos os carros
 
 **Regras de negócio**
 - Não deve ser possível cadastrar uma especificação para um carro não cadastrado
