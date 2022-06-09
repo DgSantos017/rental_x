@@ -110,7 +110,7 @@ ou <br />
 **Requisitos Funcionais**
 - deve ser possível cadastrar a imagem do carro
 - deve ser possível cadastrar mais de uma imagem por carro
-- deve ser possível listar todos os carros
+
 
 **Requisitos NÃO Funcionail**
 - Ultilizar a biblioteca Multer para upload dos arquivos
