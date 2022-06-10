@@ -82,7 +82,7 @@ docker compose up -d
 
 ### 3.7 - instale as dependências externas
 ```bash
- yarn typeorm migration:run 
+ yarn
 ```
 
 
