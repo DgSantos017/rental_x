@@ -40,42 +40,74 @@ disponíveis para aluguél e alugar o de sua preferência.
 
 ### 3.3 - faça o fork deste repositório em sua conta do github <br />
 - uma vez dentro deste repositório, o botão do Fork fica no canto superior direito da tela
-- agora em seu computador, abra o terminal e rode os comandos abaixo de acordo com cada tópico
+- agora em seu computador, abra o terminal e rode os comandos abaixo de acordo com cada tópico abaixo deste passo a passo
 
 ### 3.4 - Faça o clone para vincular o repositório do seu github a sua máquina
 
-`git clone https://github.com/DgSantos017/rental_x.git` <br />
-ou <br />
-`git clone git@github.com:DgSantos017/rental_x.git`
+```bash 
+git clone https://github.com/DgSantos017/rental_x.git 
+``` 
+<br />
+
+ou com ssh <br />
+```bash 
+git clone git@github.com:DgSantos017/rental_x.git
+```
 
 - obs: quando voce fez o Fork, se voce alterou o nome do repositório, substitua também o nome acima `rental_x` pelo nome escolheu na hora do Fork.
 
 ### 3.5 - Entre no diretório do projeto
-`cd rental_x`
+```bash
+cd rental_x
+```
 
 ### 3.6 - iniciar e levantar o servidor backend, junto com os containers Docker
 #### 3.6.1 - o comando do passo acima, depende da versão do docker compose, voce pode verificar isso com o comando abaixo
-`docker compose version`
+```bash 
+docker compose version
+```
 
 #### 3.6.2 - se a versão é > 2.0.1, rode o comando abaixo
-`docker-compose up -d`
+```bash 
+docker-compose up -d
+```
 
 #### 3.6.3 - se a versão é < 1.29, rode o comando abaixo
-`docker compose up -d`
+
+```bash 
+docker compose up -d
+```
 
 - curiosidade: - a flag acima `-d` serve para rodar o docker em plano de fundo
 
-### 3.7 - para confirmação, rode o comando abaixo
-`docker logs rentx -f` 
+### 3.7 - instale as dependências externas
+```bash
+ yarn typeorm migration:run 
+```
 
-#### 3.7.1 - se estiver tudo ok, a mensagem abaixo vai aparecer
+
+### 3.8 - rode as migrations
+```bash
+ yarn typeorm migration:run 
+```
+
+### 3.9 - para confirmação, rode o comando abaixo
+
+```bash 
+docker logs rentx -f
+```
+
+#### 3.9.1 - se estiver tudo ok, a mensagem abaixo vai aparecer
 `running in port 3333`
 
 - para facilitar nossas vidas, deixei os comandos Docker e TypeORM(Migrations) que precisam ser usados no tópico 6 e 7 abaixo desta documentação
 
 ## 4 - Como rodar os testes
 ### Rode o comando abaixo
-`yarn test`
+
+```bash 
+yarn test
+```
 
 ## 5 - Mapeamento de requisitos
 
@@ -132,39 +164,62 @@ ou <br />
 ## 6 - Comandos docker
 
 ### 6.1 - Listar todos os containers criados
-` docker ps -a `
+```bash 
+docker ps -a
+```
 
 ### 6.2 - Listar todos os containers rodando em execução
-` docker ps `
+```bash 
+docker ps
+```
 
 ### 6.3 - Apagar todos os containers
-` docker compose down `
+
+```bash 
+docker compose down
+```
 
 ### 6.4 - Apagar um container especifico
-` docker rm id_container `
+```bash 
+docker rm id_container
+```
 
 ### 6.5 - Levantar e iniciar um container do zero
-` docker compose up `
+```bash 
+docker compose up
+```
 
 ### 6.6 - Levantar e iniciar um container do zero rodando em plano de fundo
-` docker compose up -d `
+```bash 
+docker compose up -d
+```
 
 ### 6.7 - ver os logs do container rodando em plano de fundo
-` docker logs name_container -f `
+```bash 
+docker logs name_container -f
+```
 
 ### 6.8 - parar o container que está rodando no diretório presente
-`docker compose stop`
+```bash 
+docker compose stop
+```
 
 ### 6.9 - iniciar o container que está rodando no diretório presente
-`docker compose start`
+```bash 
+docker compose start
+```
 
 ## 7 - Comandos typeorm - migrations
 
 ### 7.1 - Criar uma migration
-` yarn typeorm migration:create -n NameMigration `
+```bash 
+yarn typeorm migration:create -n NameMigration
+```
 
 ### 7.2 - Rodar as migrations que foram criadas
-` yarn typeorm migration:run `
+```bash 
+yarn typeorm migration:run
+```
 
 
 ## 8 - Tecnologias ultilizadas
