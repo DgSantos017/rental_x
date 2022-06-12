@@ -4,7 +4,7 @@ import { IDateProvider } from '../IDateProvider'
 
 dayjs.extend(utc)
 
-class DayjsProvider implements IDateProvider {
+class DayjsDateProvider implements IDateProvider {
  
 	compareInHours(start_date: Date, end_date: Date): number {
 
@@ -23,4 +23,4 @@ class DayjsProvider implements IDateProvider {
 	}
 	
 }
-export { DayjsProvider }
+export { DayjsDateProvider }
