@@ -5,9 +5,11 @@ import { v4 as uuid } from 'uuid'
 import { app } from '../../../../shared/infra/http/app'
 import createConnection from '../../../../shared/infra/typeorm'
 
+
+
 let connection: Connection
 
-describe('Create categoryController', () => {
+describe('List categories', () => {
 
 	beforeAll( async() => {
 
@@ -31,7 +33,7 @@ describe('Create categoryController', () => {
 		await connection.close()
 	})
 
-	it('should be able to create a new category', async () => {
+	it('should be able to to list all categories', async () => {
 
 		const responseToken = await request(app).post('/login')
 			.send({
@@ -41,34 +43,19 @@ describe('Create categoryController', () => {
 
 		const { token } = responseToken.body
 	
-		const response = await request(app).post('/categories')
+		await request(app).post('/categories')
 			.send({
 				'name': 'Name Category super test',
 				'description': 'Description Category super test'
 			}).set({
 				Authorization: `Bearer ${token}`
 			})
-		expect(response.status).toBe(201)
+    
+		const response = await request(app).get('/categories')
+
+		expect(response.status).toBe(200)
+		expect(response.body.length).toBe(1)
+		expect(response.body[0]).toHaveProperty('id')
+		expect(response.body[0].name).toEqual('Name Category super test')
 	})
-
-	it('should not be able to create a new category with name exists ', async () => {
-
-		const responseToken = await request(app).post('/login')
-			.send({
-				email: 'admin@gmail',
-				password: 'admin'
-			})
-
-		const { token } = responseToken.body
-	
-		const response = await request(app).post('/categories')
-			.send({
-				'name': 'Name Category super test',
-				'description': 'Description Category super test'
-			}).set({
-				Authorization: `Bearer ${token}`
-			})
-		expect(response.status).toBe(409)
-	})
-  
 })
