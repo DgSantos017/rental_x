@@ -46,3 +46,7 @@ container.registerSingleton<IRentalsRepository>(
 	'RentalsRepository',
 	RentalsRepository
 )
+container.registerSingleton<IDateProvider> (
+	'DayJsDateProvider',
+	DayjsDateProvider
+)
