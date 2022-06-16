@@ -5,8 +5,6 @@ import { v4 as uuid } from 'uuid'
 import { app } from '../../../../shared/infra/http/app'
 import createConnection from '../../../../shared/infra/typeorm'
 
-
-
 let connection: Connection
 
 describe('List categories', () => {

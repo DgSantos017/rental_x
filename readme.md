@@ -159,6 +159,20 @@ yarn test
 - O aluguel deve ter duração minima de 24 horas
 - Não deve ser possível cadastrar um novo aluguel caso já exista um aberto para o mesmo usúario ou carro
 - o usuário deve estar logado na aplicação
+- Ao realizar um algguel, o status do carro deverá ser alterado para indisponível
+
+### 5.6 - Devolução de carro
+
+**Requisitos Funcionais**
+- deve ser possível realizar a devolução de um carro
+
+**Regras de negócio**
+- Se o carro for devolvido com menos de 24hrs, deverá ser cobrado diária completa
+- Ao realizar a devolução, o carro deverá ser liberado para outro aluguel
+- Ao realizar a devolução, o usuário deverá ser liberado para outro aluguel
+- Ao realizar a devolução, deverá ser calculado o total do aluguel
+- Caso o horário de devolução seja superior ao horário previsto de entrega, deverá ser cobrado multa proporcional aos dias de atraso
+- Caso haja multa, deverá ser somado ao total do aluguel
 
 ## 6 - Comandos docker
 
