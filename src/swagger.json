@@ -63,6 +63,75 @@
             }
         }  
     },
+    "/cars": {
+        "post": {
+            "tags": ["Cars"],
+            "summary": "Create a new car",
+            "description": "Route for Create new car",
+            "security":[{"bearerAuth": []}],
+            "requestBody": {
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "type": "object",
+                            "example": { 
+                                "name": "Fiaue UNO", 
+                                "description": "O malvadão", 
+                                "license_plate": "xxx-plate", 
+                                "fine_amount": 101, 
+                                "daily_rate": 202, 
+                                "brand": "marca FLAMENGO",
+                                "category_id": "c05db070-502e-4701-a0f6-f12857ff3c8a"
+                            }
+                        }
+                    }
+                }
+            },
+            "responses": {
+                "201": { "description": "Created successfully" },
+                "409": { "description": "Car alreday exists" }
+            }
+
+        }
+    },
+    "/cars/images/{id}":{
+        "post": {
+            "tags": ["Cars"],
+            "summary": "Upload images",
+            "description": "Royte for upload images",
+            "security":[{"bearerAuth": []}],
+            "parameters": [{
+                "in": "path", 
+                "name": "id", 
+                "description": "Car ID",
+                "required": true,
+                "schema": {
+                    "type": "string"
+                }
+            }], 
+            "requestBody":{
+                "content": {
+                    "multipart/form-data": {
+                        "schema": {
+                            "type": "object",
+                            "properties": {
+                                "images": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string",
+                                        "format": "binary"
+                                    }
+                                }  
+                            }
+                        }
+                    }
+                }
+            },
+            "responses": {
+                "201": { "description": "Upload successfully" }
+            }
+        }
+    },
     "/categories/import": {
         "post": {
             "tags": ["Categories"],
@@ -128,6 +197,7 @@
           "tags": ["Specifications"],
           "summary": "Create new specification",
           "description": "Route for created specification",
+          "security":[{"bearerAuth": []}],
           "requestBody": {
               "content": {
                   "application/json": {
