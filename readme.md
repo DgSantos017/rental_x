@@ -175,6 +175,14 @@ yarn test
 - Caso haja multa, deverá ser somado ao total do aluguel
 - - o usuário deve estar logado na aplicação
 
+### 5.7 - Listagem de aluguéis para usuário
+
+**Requisitos Funcionais**
+- deve ser possível realizar a busca de todos os aluguéis para o usuário
+
+**Regras de negócio**
+- o usário deve estar logado na aplicação
+
 ## 6 - Comandos docker
 
 ### 6.1 - Listar todos os containers criados
