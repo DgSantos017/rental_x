@@ -10,7 +10,9 @@ import { ISpecificationsRepository } from '../../modules/cars/repositories/ISpec
 import { RentalsRepository } from '../../modules/rentals/infra/typeorm/repositories/RentalsRepository'
 import { IRentalsRepository } from '../../modules/rentals/repositories/IRentalsRepository'
 import { UsersRepository } from '../../modules/users/infra/typeorm/repositories/UsersRepository'
+import { UsersTokensRepository } from '../../modules/users/infra/typeorm/repositories/UsersTokensRepository'
 import { IUsersRepository } from '../../modules/users/repositories/IUsersRepository'
+import { IUsersTokensRepository } from '../../modules/users/repositories/IUsersTokensRepository'
 import { IDateProvider } from './providers/DateProvider/IDateProvider'
 import { DayjsDateProvider } from './providers/DateProvider/implementations/DayjsDateProvider'
 
@@ -49,4 +51,8 @@ container.registerSingleton<IRentalsRepository>(
 container.registerSingleton<IDateProvider> (
 	'DayJsDateProvider',
 	DayjsDateProvider
+)
+container.registerSingleton<IUsersTokensRepository> (
+	'UsersTokensRepository',
+	UsersTokensRepository
 )
