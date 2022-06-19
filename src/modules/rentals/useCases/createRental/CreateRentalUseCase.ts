@@ -5,6 +5,7 @@ import { ICarsRepository } from '../../../cars/repositories/ICarsRepository'
 import { Rental } from '../../infra/typeorm/entities/Rental'
 import { IRentalsRepository } from '../../repositories/IRentalsRepository'
 
+
 interface IRequest {
   user_id: string
   car_id: string
@@ -31,7 +32,7 @@ class CreateRentalUseCase {
     
 		const carUnAvailable = await this.rentalsRepository.findOpenRentalByCar(car_id)
 		if(carUnAvailable){
-			throw new AppError('Car is unavailable')
+			throw new AppError('Car is unavaliable')
 		}
 
 		const rentalOpenToUser = await this.rentalsRepository.findOpenRentalByUser(user_id)

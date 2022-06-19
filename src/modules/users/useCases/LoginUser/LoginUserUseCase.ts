@@ -4,6 +4,7 @@ import { inject, injectable } from 'tsyringe'
 import { AppError } from '../../../../shared/erros/Apperror'
 import { IUsersRepository } from '../../repositories/IUsersRepository'
 
+
 interface IRequest {
   email: string
   password: string
@@ -27,12 +28,12 @@ class LoginUserUseCase {
 
 		const user = await this.usersRepository.findByEmail(email)
 		if(!user){
-			throw new AppError('Email or password incorrect', 401)
+			throw new AppError('E-Mail or password incorrect', 401)
 		}
 
 		const passwordMatch = await compare(password, user.password)
 		if(!passwordMatch){
-			throw new AppError('Email or password incorrect', 401)
+			throw new AppError('E-Mail or password incorrect', 401)
 		}
 
 		const token = sign({}, '9ee8bd45aeb5e900dfeb0725a13ff086', {

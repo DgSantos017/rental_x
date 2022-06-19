@@ -31,29 +31,32 @@ describe('Login User', () => {
 		expect(result).toHaveProperty('token')
 	})
 
-	it('should not be able to login an nonexistent user', () => {
-		expect(async() => {
-			await loginUserUseCase.execute({
+	it('should not be able to login an nonexistent user', async () => {
+
+		await expect(
+			loginUserUseCase.execute({
 				email: 'false@gmail.com',
 				password: '1234'
 			})
-		}).rejects.toBeInstanceOf(AppError)
+		).rejects.toEqual(new AppError('E-Mail or password incorrect', 401))
 	})
 
-	it('should not be able to login', () => {
-		expect(async () => {
-			const user: ICreateUserDTO = {
-				driver_license: '00778',
-				email: 'teste@gmail.com',
-				password: '1234',
-				name: 'test error'
-			}
+	it('should not be able to login with incorrect password', async () => {
 
-			await createUsersUseCase.execute(user)
-			await loginUserUseCase.execute({
+		const user: ICreateUserDTO = {
+			driver_license: '00778',
+			email: 'teste@gmail.com',
+			password: '1234',
+			name: 'test error'
+		}
+
+		await createUsersUseCase.execute(user)
+
+		await expect(
+			loginUserUseCase.execute({
 				email: user.email,
 				password: 'passwordError'
 			})
-		}).rejects.toBeInstanceOf(AppError)
+		).rejects.toEqual(new AppError('E-Mail or password incorrect', 401))
 	})
 })
