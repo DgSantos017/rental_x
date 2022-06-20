@@ -7,6 +7,7 @@ import { AppError } from '../../../../shared/erros/Apperror'
 import { IUsersRepository } from '../../repositories/IUsersRepository'
 import { IUsersTokensRepository } from '../../repositories/IUsersTokensRepository'
 
+
 @injectable()
 class SendForgotPasswordMailUseCase {
 

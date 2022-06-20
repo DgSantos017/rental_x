@@ -1,7 +1,7 @@
 import { Router } from 'express'
 import { LoginUserController } from '../../../../../modules/users/useCases/LoginUser/LoginUserController'
 import { ResetPasswordUserController } from '../../../../../modules/users/useCases/resetPasswordUser/ResetPasswordUserController'
-import { SendForgotPasswordMailController } from '../../../../../modules/users/useCases/sendForgotPasswordMail/sendForgotPasswordMailController'
+import { SendForgotPasswordMailController } from '../../../../../modules/users/useCases/sendForgotPasswordMail/SendForgotPasswordMailController'
 
 const loginRoutes = Router()
 
