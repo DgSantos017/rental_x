@@ -183,6 +183,17 @@ yarn test
 **Regras de negócio**
 - o usário deve estar logado na aplicação
 
+### 5.8 - Listagem de aluguéis para usuário
+
+**Requisitos Funcionais**
+- deve ser possível o usuario recuperar a senha informando o E-Mail
+- o usuario deve receber um e-mail com o passo a passo para a recuperação de senha
+- o usuario deve inserir uma nova senha
+
+**Regras de negócio**
+- o usário precisa informar uma nova senha
+- o link enviado para a recuperação deve expirar em 3 horas
+
 ## 6 - Comandos docker
 
 ### 6.1 - Listar todos os containers criados
