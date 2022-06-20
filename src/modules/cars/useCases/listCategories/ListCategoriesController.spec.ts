@@ -5,6 +5,7 @@ import { v4 as uuid } from 'uuid'
 import { app } from '../../../../shared/infra/http/app'
 import createConnection from '../../../../shared/infra/typeorm'
 
+
 let connection: Connection
 
 describe('List categories', () => {
@@ -39,14 +40,14 @@ describe('List categories', () => {
 				password: 'admin'
 			})
 
-		const { refresh_token } = responseToken.body
+		const { token } = responseToken.body
 	
 		await request(app).post('/categories')
 			.send({
 				'name': 'Name Category super test',
 				'description': 'Description Category super test'
 			}).set({
-				Authorization: `Bearer ${refresh_token}`
+				Authorization: `Bearer ${token}`
 			})
     
 		const response = await request(app).get('/categories')
